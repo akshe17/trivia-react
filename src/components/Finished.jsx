@@ -2,7 +2,7 @@ import React from "react";
 import { Trophy, Home } from "lucide-react";
 
 import { useNavigate } from "react-router-dom";
-import Footer from "./footer";
+import Footer from "./Footerr";
 const Finished = ({ percentage, score, questions }) => {
   const navigate = useNavigate();
   return (

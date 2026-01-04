@@ -10,7 +10,7 @@ import {
 } from "lucide-react";
 import Finished from "../components/Finished";
 import Loading from "../components/Loading";
-import Footer from "../components/footer";
+import Footerr from "../components/Footerr";
 import { Navigate, useLocation } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 const Quiz = () => {

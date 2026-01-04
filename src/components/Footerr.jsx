@@ -1,6 +1,6 @@
 import React from "react";
 import { FaFacebook, FaGithub } from "react-icons/fa";
-const Footer = () => {
+const Footerr = () => {
   return (
     <footer className="w-full py-6 mt-12 border-t border-purple-200">
       <div className="max-w-4xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
@@ -33,4 +33,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footerr;

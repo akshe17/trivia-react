@@ -11,7 +11,7 @@ import {
   Play,
   X,
 } from "lucide-react";
-import Footer from "../components/footer";
+import Footer from "../components/Footerr";
 
 import { useNavigate } from "react-router-dom";
 const Home = () => {
