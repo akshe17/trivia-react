@@ -253,7 +253,7 @@ const Quiz = () => {
 
         {/* Category Badge */}
         <div className="flex items-center justify-between gap-2 text-purple-700">
-          <Footer></Footer>
+          <Footerr></Footerr>
 
           <span
             className="text-sm"
