@@ -145,6 +145,9 @@ const Quiz = () => {
       ></Finished>
     );
   }
+  if (!questions || questions.length === 0) {
+    return null;
+  }
 
   const currentQuestion = questions[currentIndex];
   const progress = ((currentIndex + 1) / questions.length) * 100;
